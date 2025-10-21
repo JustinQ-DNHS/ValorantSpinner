@@ -33,15 +33,17 @@ jobs:
       - name: Build Windows Installer
         run: |
           jpackage --input target/ `
-                   --name ValorantSpinner `
-                   --main-jar ValorantSpinner-1.0-SNAPSHOT.jar `
-                   --main-class io.github.justinquach.ValorantSpinner `
-                   --type exe `
-                   --app-version 1.0
-          
+                  --name ValorantSpinner `
+                  --main-jar ValorantSpinner-1.0-SNAPSHOT.jar `
+                  --main-class io.github.justinquach.ValorantSpinner `
+                  --type exe `
+                  --app-version 1.0 `
+                  --dest target/installer
+
       # Step 5: Upload installer as build artifact
       - name: Upload Installer
         uses: actions/upload-artifact@v4
         with:
           name: ValorantSpinner-Windows-Installer
-          path: ValorantSpinner.exe
+          path: target/installer/*.exe
+
