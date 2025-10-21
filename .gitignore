@@ -6,3 +6,10 @@
 *.iml
 .idea/
 out/
+# jpackage output
+*.app/
+*.dmg
+*.exe
+*.msi
+*.deb
+*.rpm
