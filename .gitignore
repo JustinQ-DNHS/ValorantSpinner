@@ -1,12 +1,21 @@
-# Vscode
-.vscode/
 # Maven
 /target/
-# IntellJ
+
+# IDEs
+.vscode/
 *.iml
 .idea/
 out/
-# jpackage output
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+
+# Native installers
 *.app/
 *.dmg
 *.exe
