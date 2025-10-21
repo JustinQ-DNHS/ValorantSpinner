@@ -1,0 +1,8 @@
+# Vscode
+.vscode/
+# Maven
+/target/
+# IntellJ
+*.iml
+.idea/
+out/
