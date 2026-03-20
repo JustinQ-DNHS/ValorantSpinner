@@ -4,17 +4,95 @@
     <meta charset="utf-8">
     <title>Slight Distraction</title>
     <style>
-
+        :root {
+            --tab-color: lightgrey;
+        }
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            padding: 0 10px 0 10px;
+        }
+        .header {
+            height: 8vh;
+        }
+        .tabs {
+            height: 6vh;
+            margin-top: 10px
+        }
+        .content {
+            background-color: green;
+            flex: 1; /* take all remaining space */
+            padding: 0px 10px 10px 10px;
+            position: relative;
+        }
+        .tab {
+            background-color: var(--tab-color);
+            display: inline-block;
+            height: 8vh;
+            width: 13vw;
+            font-size: 30px;
+            text-align: center;
+            padding-top: 8px;
+            margin-left: 8px;
+            border-radius: 15px 15px 0 0;
+            position: relative;
+        }
+        .tab:first-child {
+            margin-left:16px;
+        }
+        .tab::before {
+            height:40px;
+            width: 30px;
+            content: "";
+            position: absolute;
+            right: 185px;
+            bottom: 18px;
+            background-color: transparent;
+            border-bottom-right-radius: 100px;
+            box-shadow: 10px 0 0 0 var(--tab-color);
+        }
+        .tab::after {
+            height:40px;
+            width: 30px;
+            content: "";
+            position: absolute;
+            left: 185px;
+            bottom: 18px;
+            background-color: transparent;
+            border-bottom-left-radius: 100px;
+            box-shadow: -10px 0 0 0 var(--tab-color);
+        }
+        h1 {
+            background-color: lightgray;
+            width: 30vw;
+            font-size: 40px;
+            margin: 10px 0 10px 0;
+            padding: 5px 0px 0px 15px;
+            border-radius: 15px;
+        }
     </style>
 </head>
 <body>
-    <div style="display:inline; height:10vh">
+    <!-- Textbox at top of screen -->
+    <div class="header">
         <h1>Valorant Spinner</h1>
     </div>
-    <h1>HIIIIIII</h1>
-    <p>text I hope?</p>
+    <div class="tabs">
+        <li class="tab">Agents</li>
+        <li class="tab">Weapons</li>
+        <li class="tab">Gamemode</li>
+    </div>
+    <div class="content">
+        <p>Lorem ipsum...</p>
+        <button onclick="">fuck</button>
+    </div>
 <script>
-
+    const nt = 0;
+    function test() {
+        
+    }
 </script>
 </body>
 </html>
