@@ -22,3 +22,8 @@ Thumbs.db
 *.msi
 *.deb
 *.rpm
+
+# Browser stuff
+_site
+Gemfile.lock
+nohup.out
