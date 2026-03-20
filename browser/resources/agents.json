@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Astra",
+        "role": "Controller"
+    },
+    {
+        "name": "Breach",
+        "role": "Initiator"
+    },
+    {
+        "name": "Brimstone",
+        "role": "Controller"
+    },
+    {
+        "name": "Chamber",
+        "role": "Sentinel"
+    },
+    {
+        "name": "Clove",
+        "role": "Controller"
+    },
+    {
+        "name": "Cypher",
+        "role": "Sentinel"
+    },
+    {
+        "name": "Deadlock",
+        "role": "Sentinel"
+    },
+    {
+        "name": "Fade",
+        "role": "Initiator"
+    },
+    {
+        "name": "Gekko",
+        "role": "Initiator"
+    },
+    {
+        "name": "Harbor",
+        "role": "Controller"
+    },
+    {
+        "name": "Iso",
+        "role": "Duelist"
+    },
+    {
+        "name": "Jett",
+        "role": "Duelist"
+    },
+    {
+        "name": "Kay/o",
+        "role": "Initiator"
+    },
+    {
+        "name": "Killjoy",
+        "role": "Sentinel"
+    },
+    {
+        "name": "Neon",
+        "role": "Duelist"
+    },
+    {
+        "name": "Omen",
+        "role": "Controller"
+    },
+    {
+        "name": "Pheonix",
+        "role": "Duelist"
+    },
+    {
+        "name": "Raze",
+        "role": "Duelist"
+    },
+    {
+        "name": "Reyna",
+        "role": "Duelist"
+    },
+    {
+        "name": "Sage",
+        "role": "Sentinel"
+    },
+    {
+        "name": "Skye",
+        "role": "Initiator"
+    },
+    {
+        "name": "Sova",
+        "role": "Initiator"
+    },
+    {
+        "name": "Tejo",
+        "role": "Initiator"
+    },
+    {
+        "name": "Veto",
+        "role": "Sentinel"
+    },
+    {
+        "name": "Viper",
+        "role": "Controller"
+    },
+    {
+        "name": "Vyse",
+        "role": "Sentinel"
+    },
+    {
+        "name": "Waylay",
+        "role": "Duelist"
+    },
+    {
+        "name": "Yoru",
+        "role": "Duelist"
+    }
+]
