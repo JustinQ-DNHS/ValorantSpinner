@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Slight Distraction</title>
+    <title>Valorant Spinner</title>
     <style>
         :root {
             --tab-color: lightgrey;
@@ -22,10 +22,12 @@
             margin-top: 10px
         }
         .content {
-            background-color: green;
+            background-color: darkgrey;
+            display: flex;
             flex: 1; /* take all remaining space */
-            padding: 0px 10px 10px 10px;
+            padding: 20px 25px;
             position: relative;
+            flex-direction: column;
         }
         .tab {
             background-color: var(--tab-color);
@@ -64,6 +66,13 @@
             border-bottom-left-radius: 100px;
             box-shadow: -10px 0 0 0 var(--tab-color);
         }
+        .table {
+            display: inline-block;
+            width: 50vh;
+            background-color: grey;
+            flex: 1;
+            padding: 10px;
+        }
         h1 {
             background-color: lightgray;
             width: 30vw;
@@ -85,14 +94,11 @@
         <li class="tab">Gamemode</li>
     </div>
     <div class="content">
-        <p>Lorem ipsum...</p>
-        <button onclick="">fuck</button>
+        <div class="table">
+        </div>
     </div>
+
 <script>
-    const nt = 0;
-    function test() {
-        
-    }
 </script>
 </body>
 </html>
