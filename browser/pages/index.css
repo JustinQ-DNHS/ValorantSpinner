@@ -121,7 +121,9 @@ body {
     text-align: center;
 }
 .agentFullImage {
-    height: 80vh;
+    width: 80%;
+    height: auto;
+    object-fit: cover;
 }
 h1 {
     background-color: lightgray;
