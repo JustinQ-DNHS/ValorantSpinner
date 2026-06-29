@@ -1,118 +1,176 @@
 [
     {
+        "id": 0,
         "name": "Brimstone",
-        "role": "Controller"
+        "role": "Controller",
+        "removed": false
     },
     {
+        "id": 1,
         "name": "Viper",
-        "role": "Controller"
+        "role": "Controller",
+        "removed": false
     },
     {
+        "id": 2,
         "name": "Omen",
-        "role": "Controller"
+        "role": "Controller",
+        "removed": false
     },
     {
+        "id": 3,
         "name": "Killjoy",
-        "role": "Sentinel"
+        "role": "Sentinel",
+        "removed": false
     },
     {
+        "id": 4,
         "name": "Cypher",
-        "role": "Sentinel"
+        "role": "Sentinel",
+        "removed": false
     },
     {
+        "id": 5,
         "name": "Sova",
-        "role": "Initiator"
+        "role": "Initiator",
+        "removed": false
     },
     {
+        "id": 6,
         "name": "Sage",
-        "role": "Sentinel"
+        "role": "Sentinel",
+        "removed": false
     },
     {
+        "id": 7,
         "name": "Phoenix",
-        "role": "Duelist"
+        "role": "Duelist",
+        "removed": false
     },
     {
+        "id": 8,
         "name": "Jett",
-        "role": "Duelist"
+        "role": "Duelist",
+        "removed": false
     },
     {
+        "id": 9,
         "name": "Reyna",
-        "role": "Duelist"
+        "role": "Duelist",
+        "removed": false
     },
     {
+        "id": 10,
         "name": "Raze",
-        "role": "Duelist"
+        "role": "Duelist",
+        "removed": false
     },
     {
+        "id": 11,
         "name": "Breach",
-        "role": "Initiator"
+        "role": "Initiator",
+        "removed": false
     },
     {
+        "id": 12,
         "name": "Skye",
-        "role": "Initiator"
+        "role": "Initiator",
+        "removed": false
     },
     {
+        "id": 13,
         "name": "Yoru",
-        "role": "Duelist"
+        "role": "Duelist",
+        "removed": false
     },
     {
+        "id": 14,
         "name": "Astra",
-        "role": "Controller"
+        "role": "Controller",
+        "removed": false
     },
     {
+        "id": 15,
         "name": "Kay/o",
-        "role": "Initiator"
+        "role": "Initiator",
+        "removed": false
     },
     {
+        "id": 16,
         "name": "Chamber",
-        "role": "Sentinel"
+        "role": "Sentinel",
+        "removed": false
     },
     {
+        "id": 17,
         "name": "Neon",
-        "role": "Duelist"
+        "role": "Duelist",
+        "removed": false
     },
     {
+        "id": 18,
         "name": "Fade",
-        "role": "Initiator"
+        "role": "Initiator",
+        "removed": false
     },
     {
+        "id": 19,
         "name": "Harbor",
-        "role": "Controller"
+        "role": "Controller",
+        "removed": false
     },
     {
+        "id": 20,
         "name": "Gekko",
-        "role": "Initiator"
+        "role": "Initiator",
+        "removed": false
     },
     {
+        "id": 21,
         "name": "Deadlock",
-        "role": "Sentinel"
+        "role": "Sentinel",
+        "removed": false
     },
     {
+        "id": 22,
         "name": "Iso",
-        "role": "Duelist"
+        "role": "Duelist",
+        "removed": false
     },
     {
+        "id": 23,
         "name": "Clove",
-        "role": "Controller"
+        "role": "Controller",
+        "removed": false
     },
     {
+        "id": 24,
         "name": "Vyse",
-        "role": "Sentinel"
+        "role": "Sentinel",
+        "removed": false
     },
     {
+        "id": 25,
         "name": "Tejo",
-        "role": "Initiator"
+        "role": "Initiator",
+        "removed": false
     },
     {
+        "id": 26,
         "name": "Waylay",
-        "role": "Duelist"
+        "role": "Duelist",
+        "removed": false
     },
     {
+        "id": 27,
         "name": "Veto",
-        "role": "Sentinel"
+        "role": "Sentinel",
+        "removed": false
     },
     {
+        "id": 28,
         "name": "Miks",
-        "role": "Controller"
+        "role": "Controller",
+        "removed": false
     }
 ]
