@@ -9,7 +9,7 @@ async function spin() {
     for (const agent of GlobalEnv.agentData) {
         if (!agent['removed']) {validAgents.push(agent['id'])}
     }
-    // Random number from 0 - 28 (29 agents in spinner)
+    // Random number from 0 - valid agent length (default 29 agents in spinner)
     let agent = GlobalEnv.agentFulls[validAgents[Math.floor(Math.random() * validAgents.length)]]
     select.innerHTML = "";
     select.appendChild(agent);
