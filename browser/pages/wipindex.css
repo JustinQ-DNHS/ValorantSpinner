@@ -1,0 +1,44 @@
+/* Hopefully a better looking site */
+:root {
+    --tab-color: lightgray;
+}
+body {
+    /* TEMPORARY, FLASHBANGING ME AT NIGHT */
+    background-color: darkgrey;
+    display: grid;
+    grid-template-rows: 8vh 7vh 82vh;
+}
+/* Little title bar at the top */
+h1 {
+    background-color: lightgray;
+    width: 35vw;
+    font-size: 2.5em;
+    margin: 0.5vw 0;
+    padding: 5px 0px 0px 15px;
+    border-radius: 15px;
+}
+/* Testing theoretical maximum sizes */
+img {
+    width:8.5vw
+}
+.table {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 50vw;
+    height: 82vh;
+    background-color: maroon;
+    padding: 0.1vw;
+    overflow-y: auto;
+    scrollbar-width: none;
+    text-align: center;
+    min-width: 0;
+    & * {
+        margin-top:5px;
+        cursor: pointer;
+    }
+}
+.tabs {
+    display: flex;
+    flex: 1;
+    place-content: center space-between;
+}
