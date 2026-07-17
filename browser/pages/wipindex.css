@@ -1,10 +1,11 @@
 /* Hopefully a better looking site */
 :root {
-    --tab-color: lightgray;
+    --tab-color: darkgrey;
+    /* --tab-color: #22242A; */
 }
 body {
     /* TEMPORARY, FLASHBANGING ME AT NIGHT */
-    background-color: darkgrey;
+    background-color: #22242A;
     display: grid;
     grid-template-rows: 8vh 7vh 82vh;
 }
@@ -17,28 +18,100 @@ h1 {
     padding: 5px 0px 0px 15px;
     border-radius: 15px;
 }
+.content {
+    display: flex; 
+    flex: 1;
+}
+.agentSelect {
+    margin-left: 4vw;
+    height: 82vh;
+    width:40vw;
+    background-color: green;
+    text-align: center;
+    font-size: 3em;
+    user-select: none;
+    & img {
+        width: 100%
+    }
+}
 /* Testing theoretical maximum sizes */
 img {
     width:8.5vw
 }
+/* This was meant to be temp but the code went too far so prolly locking this in */
 .table {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    gap: 0.5vw;
     width: 50vw;
+    min-width: 0;
     height: 82vh;
-    background-color: maroon;
-    padding: 0.1vw;
+    padding: 0.8vh 0.5vw;
+    text-align: center;
     overflow-y: auto;
     scrollbar-width: none;
-    text-align: center;
-    min-width: 0;
-    & * {
-        margin-top:5px;
+    background-color: #B80F0A;
+    user-select: none;
+    /* Changes to direct children */
+    & > * {
         cursor: pointer;
+        background-color: var(--tab-color);
+        border-radius: 15px;
+        border: 5px solid white;
+        /* 
+          Removed for now since it creates issues with disabled class
+          I like it cause it adds more reactiveness but loses that once you disable many at a time
+          Possible solutions is to add a hover element to disabled ones as well
+          but it needs to be visually interesting
+         */
+        &:hover {
+            border: 5px solid rgb(231, 231, 231);
+            filter: brightness(85%);
+        }
+        /* border: 5px solid rgb(204, 204, 204); */
+        & img {
+            margin-top:5px;
+            border-radius: 15px 15px 0 0;
+        }
+        /* Uhh this is a temp and needs to be fixed */
+        & p {
+            font-size: 1.5em;
+            margin: 5px;
+        }
     }
 }
+/* this sucks but it's temp */
 .tabs {
     display: flex;
     flex: 1;
-    place-content: center space-between;
+    place-content: flex-end flex-start;
+    user-select: none;
+    & label {
+        border: 5px solid blue;
+        border-bottom: 2px solid blue;
+        margin: 0 1.5vw;
+        background-color: var(--tab-color);
+    }
+}
+/* 
+    High priority classes, exist for various reasons but ususally reactive reasons 
+    Down here for cascading reasons
+*/
+.table .disabled {
+    filter: brightness(60%) grayscale(30%) !important;
+}
+.trapezoid {
+  width: 10vw;
+  height: 5.5vh;
+  background: red;
+  transform: perspective(10px) rotateX(4deg);
+  display:flex;
+  translate: 0 -5px;
+  place-content: center;
+  cursor: pointer;
+  & * {
+    all: unset;
+    transform: perspective(10px) rotateX(-4deg);
+    font-size: 1.5em;
+  }
 }
